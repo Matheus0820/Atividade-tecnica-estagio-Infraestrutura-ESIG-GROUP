@@ -24,3 +24,16 @@
 - Digite o seguinte comando: ```chmod +x *.sh```
 - Execulte o arquivo **standalone.sh** para iniciar o servidor: ```./standalone.sh```
 
+## Executando Scripts:
+### Scripts de **dump** e **restore**:
+- 1
+- 2
+- 3
+
+### Script de Instâncias **Tomcat** e **Jboss**:
+1 -
+2 - 
+3 -
+
+
+
