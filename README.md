@@ -13,8 +13,10 @@
 - JBoss WildFly 31.0.1
 
 ### Instalando e iniciando o Apache Tomcat 8.5.100
-- No diretório raiz digite: ```sudo wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.100/bin/apache-tomcat-8.5.100.zip -d /opt/```
-- Vá para o diretório ```/opt/apache-tomcat-8.5.100/bin/```
+- Clonar esse repositório através do comando: ```git clone https://github.com/Matheus0820/Atividade-tecnica-estagio-Infraestrutura-ESIG-GROUP.git```
+- Vá para o diretório **Atividade-tecnica-estagio-Infraestrutura-ESIG-GROUP/depedencias/** e copie o arquivo **apache-tomcat-8.5.100.zip** para a o diretório **/opt/**
+- Descompacte o arquivo utilizando o **unzip** com o seguinte comando: ```unzip apache-tomcat-8.5.100.zip```
+- Vá para o diretório **/apache-tomcat-8.5.100/bin/**
 - Digite o seguinte comando: ```chmod +x *.sh```
 - Execulte o arquivo **startup.sh** para iniciar o servidor: ```./startup.sh```
 
