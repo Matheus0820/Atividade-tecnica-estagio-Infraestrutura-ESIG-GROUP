@@ -6,12 +6,12 @@ SERVICE_NAME_JBOOS="wildfly" # Nome do servico do Jboss
 
 
 STATUS_FILE_TOMCAT="/tmp/tomcat_status.txt" # Arquivo status de tempo de execulcao do Tomcat
-STATUS_FILE_JBOSS="/tmp/tomcat_status.txt" # Arquivo status de tempo de execulcao do Jboss
+STATUS_FILE_JBOSS="/tmp/jboss_status.txt" # Arquivo status de tempo de execulcao do Jboss
 
 
 while true; do
     # Verifica se o Tomcat está rodando
-    if ps aux | grep -v grep | grep $SERVICE_NAME_TOMCAT | cut -c -60
+    if ps aux | grep -v grep | grep $SERVICE_NAME_TOMCAT > /dev/null 
     then
         # Atualiza o tempo no arquivo do Tomcat
         date +%s > $STATUS_FILE_TOMCAT
@@ -37,7 +37,7 @@ while true; do
     fi
     
     # Verifica se o Jboss esta rodando
-    if ps aux | grep -v grep | grep $SERVICE_NAME_JBOSS | cut -c -60
+    if ps aux | grep -v grep | grep $SERVICE_NAME_JBOSS > /dev/null
     then
     	# Atualiza o tempo no arquivo do Tomcat
         date +%s > $STATUS_FILE_JBOSS
