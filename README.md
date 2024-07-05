@@ -34,9 +34,9 @@
 - Execute agora o arquivo **restore.sh** para fazer a restauração do seu banco de dados: ```./restore.sh```
 
 ### Script de Instâncias **Tomcat** e **Jboss**:
-1 - Copie o arquivo **verifica_instancias.sh** do ditetório **Atividade-tecnica-estagio-Infraestrutura-ESIG-GROUP/scripts/instancias-jboos-tomcat/** para o diretório raiz
-2 - Modifique o caminho para os arquivos de execução dos servidores Tomcat e Jboss e salve
-3 - Execute o arquivo **verifica_instancias.sh** para fazer a verificação por tempo indeterminado: ```./verifica_instancias.sh &```
+- Copie o arquivo **verifica_instancias.sh** do ditetório **Atividade-tecnica-estagio-Infraestrutura-ESIG-GROUP/scripts/instancias-jboos-tomcat/** para o diretório raiz
+- Modifique o caminho para os arquivos de execução dos servidores Tomcat e Jboss e salve
+- Execute o arquivo **verifica_instancias.sh** para fazer a verificação por tempo indeterminado: ```./verifica_instancias.sh &```
  
 
 
