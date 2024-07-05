@@ -28,14 +28,15 @@
 
 ## Executando Scripts:
 ### Scripts de **dump** e **restore**:
-- 1
-- 2
-- 3
+- Com repositório clonado copie o os arquivos **dump.sh** e **restore.sh** da pasta **Atividade-tecnica-estagio-Infraestrutura-ESIG-GROUP/scripts/dump_restore/** para o diretório raiz
+- Entre nos arquivos e coloque o nome do banco de dados
+- Execute primeiramente o arquivo **dump.sh** para fazer o backup do seu banco: ```./dump.sh```
+- Execute agora o arquivo **restore.sh** para fazer a restauração do seu banco de dados: ```./restore.sh```
 
 ### Script de Instâncias **Tomcat** e **Jboss**:
-1 -
-2 - 
-3 -
-
+1 - Copie o arquivo **verifica_instancias.sh** do ditetório **Atividade-tecnica-estagio-Infraestrutura-ESIG-GROUP/scripts/instancias-jboos-tomcat/** para o diretório raiz
+2 - Modifique o caminho para os arquivos de execução dos servidores Tomcat e Jboss e salve
+3 - Execute o arquivo **verifica_instancias.sh** para fazer a verificação por tempo indeterminado: ```./verifica_instancias.sh &```
+ 
 
 
