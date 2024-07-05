@@ -19,12 +19,14 @@
 - Vá para o diretório **/apache-tomcat-8.5.100/bin/**
 - Digite o seguinte comando: ```chmod +x *.sh```
 - Execulte o arquivo **startup.sh** para iniciar o servidor: ```./startup.sh```
+- Acesso no navegador o endereço: **localhost:9090** ou **127.0.0.1:9090**
 
 ### Instalando e iniciando o JBoss WildFly 31.0.1
 - No diretório raiz digite: ```sudo wget https://github.com/wildfly/wildfly/releases/download/32.0.1.Final/wildfly-32.0.1.Final.zip -d /opt/```
 - Vá para o diretório ```/opt/wildfly-32.0.1.Final/bin/```
 - Digite o seguinte comando: ```chmod +x *.sh```
 - Execulte o arquivo **standalone.sh** para iniciar o servidor: ```./standalone.sh```
+- Acesse no navegador o endereço: **localhost:8080** ou **127.0.0.1:8080**
 
 ## Executando Scripts:
 ### Scripts de **dump** e **restore**:
